@@ -1,0 +1,49 @@
+/*center form elements vertically and horizontally make the form look better*/
+
+form{
+    margin: 0 auto;
+    width: 50%;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    /*margin top and bottom to center the form*/
+    margin-top: 10%;
+    margin-bottom: 10%;
+    /*make bigger*/
+    text-align: center;
+    font-size-adjust: 20px;
+    box-shadow: 2px;
+
+}
+input{
+    tab-size: 10px;
+    height: 50px;
+    border-radius: 100em;
+}
+input[type="submit" i]{
+
+    background-color: #9c156f;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-color: black;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* center the button horizontally */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* center the button vertically */
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}

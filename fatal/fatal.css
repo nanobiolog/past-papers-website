@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+img{
+    text-align: center;
+   
+    /* center the image horizontally */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+p{
+    text-align: end;
+    font-size: 20px;
+    
+}
+
+html{
+    background-color: #f30000;
+}
+button{
+    background-color: #9c156f;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-color: black;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* center the button horizontally */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* center the button vertically */
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
